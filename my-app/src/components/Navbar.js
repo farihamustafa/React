@@ -24,6 +24,9 @@ function Navbar(props) {
           <li class="nav-item">
             <Link class="nav-link" to="/todo">Todo</Link>
           </li>
+          <li class="nav-item">
+            <Link class="nav-link" to="/form">Form</Link>
+          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown

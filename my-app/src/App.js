@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Contact from './pages/Contact';
 import Guestlayout from './layout/Guestlayout';
 import Todo from './pages/Todo';
+import Form from './pages/form';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/todo' element={<Todo/>}/>
+        <Route path='/form' element={<Form/>}/>
       </Routes>
       </Guestlayout>
       </BrowserRouter>
