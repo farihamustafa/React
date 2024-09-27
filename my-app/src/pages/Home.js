@@ -29,7 +29,7 @@ function Home() {
 
     {products.map((item,index)=>(
       <div className='col-sm-3 p-2'>
-      <Cards img={item.images[0]} title={item.title}
+      <Cards image={item.images[0]} title={item.title}
       desc={item.description}
       />
       </div>
